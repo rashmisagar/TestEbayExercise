@@ -52,11 +52,11 @@ public class FilterSteps {
 
     @Then("^Verify freepostage availability for first item$")
     public void verifyFreepostageAvailabilityForFirstItem() throws Throwable {
-        WebElement freePostageAvail = Driver.driver.findElement(By.className("lvshipping"));
-        freePostageAvail.isDisplayed();
-        /*String freePost = freePostageAvail.getText();
-        String results = "Free Postage";
-        assert(freePost.equals(results));*/
+        List<WebElement> webElements = Driver.driver.findElements(By.id("ResultSetItems"));
+        WebElement firstElement = webElements.get(0);
+        String itemID = firstElement.getAttribute("id");
+        isElementFreePostage(itemID);
+
     }
 
     @When("^I select filter by All Listings$")

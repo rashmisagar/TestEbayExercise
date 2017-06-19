@@ -9,12 +9,6 @@ Feature: eBay Search Sort and Filter
     And I click Search button
     Then I see the results page for the item
 
-  Scenario: Sort item by Lowest Price + P&P
-    Given I see the results page for the item
-    And I see the sort dropdown
-    When I select sort by Lowest Price + P&P
-    Then I see the results sorted by Lowest Price + P&P
-
   Scenario: Sort item by Lowest Price
     Given I see the results page for the item
     And I see the sort dropdown
@@ -56,6 +50,12 @@ Feature: eBay Search Sort and Filter
     And I see the sort dropdown
     When I select sort by Best Match
     Then I see the results sorted by Best Match
+
+  Scenario: Sort item by Lowest Price + P&P
+    Given I see the results page for the item
+    And I see the sort dropdown
+    When I select sort by Lowest Price + P&P
+    Then I see the results sorted by Lowest Price + P&P
 
   Scenario: Filter item by All Listings
     Given I see the results page for the item
