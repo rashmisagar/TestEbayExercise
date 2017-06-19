@@ -1,0 +1,810 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search an item",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;search-an-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7245595953,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open eBay Homepage",
+            "match": {
+              "location": "SearchSteps.iOpeneBayHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3254420978,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for item \"iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchSteps.iSearchForItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230245823,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Search button",
+            "match": {
+              "location": "SearchSteps.iClickSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096650078,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Sort item by Lowest Price + P\u0026P",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-lowest-price-+-p\u0026p",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29093461,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36301544,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4711638201,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select sort by Lowest Price + P\u0026P",
+            "match": {
+              "location": "SortSteps.i_select_sort_by_Lowest_Price_P_P()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2219926843,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see the results sorted by Lowest Price + P\u0026P",
+            "match": {
+              "location": "SortSteps.i_see_the_results_sorted_by_Lowest_Price_P_P()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Sort item by Lowest Price",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-lowest-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2190466235,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1208492699,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7853041217,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select sort by Lowest Price",
+            "match": {
+              "location": "SortSteps.i_select_sort_by_Lowest_Price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3624241896,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I see the results sorted by Lowest Price",
+            "match": {
+              "location": "SortSteps.i_see_the_results_sorted_by_Lowest_Price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Sort item by Highest Price",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-highest-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 852746935,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1123699439,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6216212771,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select sort by Highest Price",
+            "match": {
+              "location": "SortSteps.iSelectSortByHighestPrice()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2168155734,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I see the results sorted by Highest Price",
+            "match": {
+              "location": "SortSteps.iSeeTheResultsSortedByHighestPrice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Sort item by Highest Price + P\u0026P",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-highest-price-+-p\u0026p",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22855694,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43877644,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7150089475,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select sort by Highest Price + P\u0026P",
+            "match": {
+              "location": "SortSteps.i_select_sort_by_Highest_Price_P_P()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2049316021,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I see the results sorted by Highest Price + P\u0026P",
+            "match": {
+              "location": "SortSteps.i_see_the_results_sorted_by_Highest_Price_P_P()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Sort item by Newly listed",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-newly-listed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258588053,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215659277,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7587289165,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I select sort by Newly listed",
+            "match": {
+              "location": "SortSteps.iSelectSortByNewlyListed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6062904621,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I see the results sorted by Newly listed",
+            "match": {
+              "location": "SortSteps.iSeeTheResultsSortedByNewlyListed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Sort item by Ending soonest",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-ending-soonest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 323895196,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 627784001,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4165378879,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select sort by Ending soonest",
+            "match": {
+              "location": "SortSteps.iSelectSortByEndingSoonest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6232477714,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I see the results sorted by Ending soonest",
+            "match": {
+              "location": "SortSteps.iSeeTheResultsSortedByEndingSoonest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Sort item by Nearest First",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-nearest-first",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1090840760,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1461895290,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5392932090,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I select sort by Nearest first",
+            "match": {
+              "location": "SortSteps.iSelectSortByNearestFirst()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3708538591,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I see the results sorted by Nearest first",
+            "match": {
+              "location": "SortSteps.iSeeTheResultsSortedByNearestFirst()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Sort item by Best Match",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;sort-item-by-best-match",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 573149034,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 721161040,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I see the sort dropdown",
+            "match": {
+              "location": "SortSteps.i_see_the_sort_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4797000128,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I select sort by Best Match",
+            "match": {
+              "location": "SortSteps.iSelectSortByBestMatch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3425432639,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I see the results sorted by Best Match",
+            "match": {
+              "location": "SortSteps.iSeeTheResultsSortedByBestMatch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 60,
+        "name": "Filter item by All Listings",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;filter-item-by-all-listings",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 857629973,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1179413523,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I see the filters",
+            "match": {
+              "location": "FilterSteps.iSeeTheFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600919548,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I select filter by All Listings",
+            "match": {
+              "location": "FilterSteps.iSelectFilterByAllListings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1418687006,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I see the results filtered by All Listings",
+            "match": {
+              "location": "FilterSteps.iSeeTheResultsFilteredByAllListings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2952827359,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Verify the price of first item",
+            "match": {
+              "location": "FilterSteps.verifyThePriceOfFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1571537675,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Verify freepostage availability for first item",
+            "match": {
+              "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "Filter item by Auction",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;filter-item-by-auction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 494774038,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 299696497,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I see the filters",
+            "match": {
+              "location": "FilterSteps.iSeeTheFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640561624,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I select filter by Auction",
+            "match": {
+              "location": "FilterSteps.iSelectFilterByAuction()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3727742644,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I see the results filtered by Auction",
+            "match": {
+              "location": "FilterSteps.iSeeTheResultsFilteredByAuction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616678680,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Verify the number of bids applied is displayed",
+            "match": {
+              "location": "FilterSteps.verifyTheNumberOfBidsAppliedIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1661485699,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Verify the price of first item",
+            "match": {
+              "location": "FilterSteps.verifyThePriceOfFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243297329,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Verify freepostage availability for first item",
+            "match": {
+              "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 77,
+        "name": "Filter item by Buy it now",
+        "description": "",
+        "id": "ebay-search-sort-and-filter;filter-item-by-buy-it-now",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 560869016,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I see the results page for the item",
+            "match": {
+              "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278830473,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I see the filters",
+            "match": {
+              "location": "FilterSteps.iSeeTheFilters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1234335640,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I select filter by Buy it now",
+            "match": {
+              "location": "FilterSteps.iSelectFilterByBuyItNow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3835685364,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I see the results filtered by Buy it now",
+            "match": {
+              "location": "FilterSteps.iSeeTheResultsFilteredByBuyItNow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1122931557,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Verify the price of first item",
+            "match": {
+              "location": "FilterSteps.verifyThePriceOfFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793729588,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Verify freepostage availability for first item",
+            "match": {
+              "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 450725647,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Verify buy it now is displayed",
+            "match": {
+              "location": "FilterSteps.verifyBuyItNowIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "eBay Search Sort and Filter",
+    "description": "As a new customer (Not logged in) on eBay,\nI want to be able to shop for an item I want,\nto look for the cheapest item available and use the filtering options available",
+    "id": "ebay-search-sort-and-filter",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
