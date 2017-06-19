@@ -24,36 +24,6 @@ public class ResultsPage{
         this.driver = driver;
     }
 
-    @FindBy(id = "gh-ac")
-    private WebElement searchInputField;
-
-    @FindBy(id = "gh-btn")
-    private WebElement searchButton;
-
-    @FindBy(css = "#DashSortByContainer > ul.sel > li > a")
-    private WebElement sortDropdown;
-
-/*    @FindBy(linkText="Auction")
-    private WebElement Auction;
-
-    @FindBy(linkText="Time: ending soonest")
-    private WebElement endSoon;
-
-    @FindBy(linkText="Price + Shipping: lowest first")
-    private WebElement lowerFirst;
-
-    @FindBy(linkText="Price + Shipping: highest first")
-    private WebElement higherFirst;
-
-    @FindBy(linkText="Distance: nearest first")
-    private WebElement distanceNear;
-
-    @FindBy(linkText="Best Match")
-    private WebElement bestMatch;
-
-    @FindBy(linkText="Time: newly listed")
-    private WebElement newList;*/
-
 
     public void verifySortDropdown() throws InterruptedException{
         WebElement sortDropdown = driver.findElement(By.cssSelector("#DashSortByContainer > ul.sel > li > a"));
@@ -83,7 +53,7 @@ public class ResultsPage{
     /**
      * Click on the filter Button for All Listings, Auction or Buy it now
      * @param //All Listings, Auction or {Buy it now}
-     * @example filtering "Auction"
+     * @example selectFilterOption "Auction"
      */
     public void selectFilterOption(String string) {
         String[] availableOptions= {"All Listings","Auction", "Buy it now"};
@@ -103,68 +73,6 @@ public class ResultsPage{
         assertTrue(verify.contains("Free Postage"));
     }
 
-
-    /*public HomePage openPage(WebDriver driver) {
-
-        return super.initPage(driver, ResultsPage.class);
-    }
-
-    public void typeSearchString(HomePageDetails details) {
-        System.out.println("typeSearchString function called");
-        searchBox.sendKeys(details.getSearchString());
-    }
-    public void searchProductEntered(){
-        buttonSearch.click();
-    }
-
-    @SuppressWarnings("deprecation")
-    public void verifyProductListed(HomePageDetails details) {
-
-        Assert.assertTrue(driver.getPageSource().contains(details.getSearchString()));
-
-    }
-
-
-    public void searchByGivenType(String searchBy,HomePageDetails details) throws InterruptedException {
-
-
-        (new WebDriverWait(driver, 50))
-                .until(ExpectedConditions.titleContains(details.getSearchString()));
-
-        System.out.println(driver.getTitle());
-
-        try {
-
-            new WebDriverWait(driver, 30).until(ExpectedConditions.invisibilityOfElementWithText(By.linkText(searchBy),searchBy));
-
-        } catch (WebDriverException e) {
-            throw new Error("Element is not traceable");
-        }
-        System.out.println(driver.getTitle());
-
-        WebElement moveonmenu = driver.findElement(By.xpath("//*[@id='DashSortByContainer']/ul[1]/li/a"));
-        System.out.println(moveonmenu.getText());
-        moveonmenu.sendKeys(Keys.RETURN);
-        moveonmenu.click();
-        WebDriverWait wait = new WebDriverWait(driver, 15);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(searchBy)));
-        driver.findElement(By.linkText(searchBy)).click();
-
-
-
-    }
-    public void filterBy(String filterby){
-
-        try {
-
-            new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.linkText(filterby)));
-
-        } catch (WebDriverException e) {
-            throw new Error("Element is not clickable");
-        }
-        System.out.println(this.driver.getTitle());
-        driver.findElement(By.linkText(filterby)).click();
-    }*/
 
 }
 

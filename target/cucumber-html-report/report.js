@@ -38,7 +38,7 @@ formatter.match({
   "location": "SearchSteps.iOpeneBayHomepage()"
 });
 formatter.result({
-  "duration": 7245595953,
+  "duration": 9680041358,
   "status": "passed"
 });
 formatter.match({
@@ -51,21 +51,21 @@ formatter.match({
   "location": "SearchSteps.iSearchForItem(String)"
 });
 formatter.result({
-  "duration": 3254420978,
+  "duration": 2805471465,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSteps.iClickSearchButton()"
 });
 formatter.result({
-  "duration": 230245823,
+  "duration": 176572182,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 3096650078,
+  "duration": 3181934106,
   "status": "passed"
 });
 formatter.scenario({
@@ -100,28 +100,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 29093461,
+  "duration": 15699797,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 36301544,
+  "duration": 32347141,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_select_sort_by_Lowest_Price_P_P()"
 });
 formatter.result({
-  "duration": 4711638201,
+  "duration": 4510739389,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_results_sorted_by_Lowest_Price_P_P()"
 });
 formatter.result({
-  "duration": 2219926843,
+  "duration": 2514331069,
   "status": "passed"
 });
 formatter.scenario({
@@ -156,28 +156,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 2190466235,
+  "duration": 20901187,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 1208492699,
+  "duration": 26725551,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_select_sort_by_Lowest_Price()"
 });
 formatter.result({
-  "duration": 7853041217,
+  "duration": 5038228450,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_results_sorted_by_Lowest_Price()"
 });
 formatter.result({
-  "duration": 3624241896,
+  "duration": 2481683483,
   "status": "passed"
 });
 formatter.scenario({
@@ -212,28 +212,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 852746935,
+  "duration": 23455454,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 1123699439,
+  "duration": 28464242,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSelectSortByHighestPrice()"
 });
 formatter.result({
-  "duration": 6216212771,
+  "duration": 4659366915,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSeeTheResultsSortedByHighestPrice()"
 });
 formatter.result({
-  "duration": 2168155734,
+  "duration": 2375935991,
   "status": "passed"
 });
 formatter.scenario({
@@ -268,28 +268,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 22855694,
+  "duration": 20469367,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 43877644,
+  "duration": 32197297,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_select_sort_by_Highest_Price_P_P()"
 });
 formatter.result({
-  "duration": 7150089475,
+  "duration": 5500022178,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_results_sorted_by_Highest_Price_P_P()"
 });
 formatter.result({
-  "duration": 2049316021,
+  "duration": 3555221498,
   "status": "passed"
 });
 formatter.scenario({
@@ -324,28 +324,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 1258588053,
+  "duration": 736837522,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 215659277,
+  "duration": 908972263,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSelectSortByNewlyListed()"
 });
 formatter.result({
-  "duration": 7587289165,
+  "duration": 8032708951,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSeeTheResultsSortedByNewlyListed()"
 });
 formatter.result({
-  "duration": 6062904621,
+  "duration": 2475616265,
   "status": "passed"
 });
 formatter.scenario({
@@ -380,28 +380,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 323895196,
+  "duration": 20280898,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 627784001,
+  "duration": 22833558,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSelectSortByEndingSoonest()"
 });
 formatter.result({
-  "duration": 4165378879,
+  "duration": 4648790270,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSeeTheResultsSortedByEndingSoonest()"
 });
 formatter.result({
-  "duration": 6232477714,
+  "duration": 2289845584,
   "status": "passed"
 });
 formatter.scenario({
@@ -436,28 +436,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 1090840760,
+  "duration": 12174220,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 1461895290,
+  "duration": 27956893,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSelectSortByNearestFirst()"
 });
 formatter.result({
-  "duration": 5392932090,
+  "duration": 4760924276,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSeeTheResultsSortedByNearestFirst()"
 });
 formatter.result({
-  "duration": 3708538591,
+  "duration": 3737779940,
   "status": "passed"
 });
 formatter.scenario({
@@ -492,28 +492,28 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 573149034,
+  "duration": 172898324,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.i_see_the_sort_dropdown()"
 });
 formatter.result({
-  "duration": 721161040,
+  "duration": 115098872,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSelectSortByBestMatch()"
 });
 formatter.result({
-  "duration": 4797000128,
+  "duration": 3979758531,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.iSeeTheResultsSortedByBestMatch()"
 });
 formatter.result({
-  "duration": 3425432639,
+  "duration": 3621978877,
   "status": "passed"
 });
 formatter.scenario({
@@ -558,42 +558,42 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 857629973,
+  "duration": 89015383,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheFilters()"
 });
 formatter.result({
-  "duration": 1179413523,
+  "duration": 18507355,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSelectFilterByAllListings()"
 });
 formatter.result({
-  "duration": 4600919548,
+  "duration": 196776341,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheResultsFilteredByAllListings()"
 });
 formatter.result({
-  "duration": 1418687006,
+  "duration": 168926530,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyThePriceOfFirstItem()"
 });
 formatter.result({
-  "duration": 2952827359,
+  "duration": 50988775,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
 });
 formatter.result({
-  "duration": 1571537675,
+  "duration": 8295860007,
   "status": "passed"
 });
 formatter.scenario({
@@ -643,49 +643,49 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 494774038,
+  "duration": 260270902,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheFilters()"
 });
 formatter.result({
-  "duration": 299696497,
+  "duration": 598188844,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSelectFilterByAuction()"
 });
 formatter.result({
-  "duration": 640561624,
+  "duration": 1484437056,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheResultsFilteredByAuction()"
 });
 formatter.result({
-  "duration": 3727742644,
+  "duration": 3336998911,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyTheNumberOfBidsAppliedIsDisplayed()"
 });
 formatter.result({
-  "duration": 616678680,
+  "duration": 315642497,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyThePriceOfFirstItem()"
 });
 formatter.result({
-  "duration": 1661485699,
+  "duration": 62514664,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
 });
 formatter.result({
-  "duration": 243297329,
+  "duration": 5539033414,
   "status": "passed"
 });
 formatter.scenario({
@@ -735,49 +735,49 @@ formatter.match({
   "location": "SearchSteps.iShouldSeeTheResultsPageForTheItem()"
 });
 formatter.result({
-  "duration": 560869016,
+  "duration": 249396976,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheFilters()"
 });
 formatter.result({
-  "duration": 278830473,
+  "duration": 524200219,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSelectFilterByBuyItNow()"
 });
 formatter.result({
-  "duration": 1234335640,
+  "duration": 5255713175,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.iSeeTheResultsFilteredByBuyItNow()"
 });
 formatter.result({
-  "duration": 3835685364,
+  "duration": 4989394554,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyThePriceOfFirstItem()"
 });
 formatter.result({
-  "duration": 1122931557,
+  "duration": 1419023656,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyFreepostageAvailabilityForFirstItem()"
 });
 formatter.result({
-  "duration": 793729588,
+  "duration": 8487706440,
   "status": "passed"
 });
 formatter.match({
   "location": "FilterSteps.verifyBuyItNowIsDisplayed()"
 });
 formatter.result({
-  "duration": 450725647,
+  "duration": 79305920,
   "status": "passed"
 });
 });
